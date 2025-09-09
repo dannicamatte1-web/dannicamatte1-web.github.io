@@ -52,7 +52,7 @@ color: #ff5858;
 
 /* main container area beneath menu */
 main {
-background: rgb(255, 231, 164);
+background: rgb(248, 247, 247);
 display: flex;
 margin-top: 20px;
 }
