@@ -31,6 +31,38 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
+   //createPlatform(x, y, width, height)
+//createPlatform(x, y, width, height, color, minX, maxX, Speed)
+createPlatform(200, 625, 100, 10, "hotpink")
+createPlatform(475, 500, 100, 10, "blue")
+createPlatform(200, 375, 100, 10, "purple")
+createPlatform(475, 250, 100, 10, "teal")
+
+createPlatform(750, 625, 100, 10, "hotpink")
+createPlatform(1025, 500, 100, 10, "blue")
+createPlatform(750, 375, 100, 10, "purple")
+createPlatform(1025, 250, 100, 10, "teal")
+
+
+
+// TODO 3 - Create Collectables
+//createCollectable("type", xPos, yPos, gravityNum, bounceNum Between 0 and .99)
+//type can be any of these. In "". database diamond grace kennedi max steve 
+createCollectable("database", 600, 100, 1, 0.5)
+createCollectable("kennedi", 500, 100, 1, 0)
+createCollectable("max", 400, 100, 1, 0)
+
+// TODO 4 - Create Cannons
+//createCannon(wallLocation, position, timeBetweenShots, width, height)
+
+//Cannon on the top side of the canvas. at position 500, about mid way through.
+createCannon("top", 500, 1000);
+
+//Cannon on the right side of the canvas. at position 200, about 1/4 through.
+createCannon("right", 200, 1000);
+
+//Cannon on the left side of the canvas. at position 200, about 1/2 through.
+createCannon("left", 200, 800);
 
 
 
